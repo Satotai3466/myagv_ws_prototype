@@ -1,0 +1,26 @@
+[8.977s] Invoking command in '/home/agv2/myagv_ws_proto/src/build/myagv_bringup': PYTHONPATH=/home/agv2/myagv_ws_proto/src/build/myagv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agv2/myagv_ws_proto/src/install/myagv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/agv2/myagv_ws_proto/src/build/myagv_bringup/build --no-deps symlink_data
+[13.241s] running develop
+[15.561s] running egg_info
+[15.566s] creating myagv_bringup.egg-info
+[15.579s] writing myagv_bringup.egg-info/PKG-INFO
+[15.584s] writing dependency_links to myagv_bringup.egg-info/dependency_links.txt
+[15.586s] writing entry points to myagv_bringup.egg-info/entry_points.txt
+[15.589s] writing requirements to myagv_bringup.egg-info/requires.txt
+[15.594s] writing top-level names to myagv_bringup.egg-info/top_level.txt
+[15.598s] writing manifest file 'myagv_bringup.egg-info/SOURCES.txt'
+[15.621s] reading manifest file 'myagv_bringup.egg-info/SOURCES.txt'
+[15.648s] writing manifest file 'myagv_bringup.egg-info/SOURCES.txt'
+[15.713s] running build_ext
+[15.723s] Creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/lib/python3.10/site-packages/myagv-bringup.egg-link (link to .)
+[15.737s] 
+[15.738s] Installed /home/agv2/myagv_ws_proto/src/build/myagv_bringup
+[15.745s] running symlink_data
+[15.746s] creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/ament_index
+[15.747s] creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/ament_index/resource_index
+[15.748s] creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/ament_index/resource_index/packages
+[15.752s] symbolically linking /home/agv2/myagv_ws_proto/src/build/myagv_bringup/resource/myagv_bringup -> /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/ament_index/resource_index/packages
+[15.753s] symbolically linking /home/agv2/myagv_ws_proto/src/build/myagv_bringup/package.xml -> /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/myagv_bringup
+[15.754s] creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/myagv_bringup/launch
+[15.765s] symbolically linking /home/agv2/myagv_ws_proto/src/build/myagv_bringup/launch/agent_launch.py -> /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/myagv_bringup/launch
+[15.766s] symbolically linking /home/agv2/myagv_ws_proto/src/build/myagv_bringup/launch/core_launch.py -> /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/myagv_bringup/launch
+[17.935s] Invoked command in '/home/agv2/myagv_ws_proto/src/build/myagv_bringup' returned '0': PYTHONPATH=/home/agv2/myagv_ws_proto/src/build/myagv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agv2/myagv_ws_proto/src/install/myagv_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/agv2/myagv_ws_proto/src/build/myagv_bringup/build --no-deps symlink_data

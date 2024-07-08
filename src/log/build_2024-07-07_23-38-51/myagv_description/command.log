@@ -1,0 +1,6 @@
+Invoking command in '/home/agv2/myagv_ws_proto/src/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agv2/myagv_ws_proto/src/myagv_description -DCMAKE_INSTALL_PREFIX=/home/agv2/myagv_ws_proto/src/install/myagv_description
+Invoked command in '/home/agv2/myagv_ws_proto/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agv2/myagv_ws_proto/src/myagv_description -DCMAKE_INSTALL_PREFIX=/home/agv2/myagv_ws_proto/src/install/myagv_description
+Invoking command in '/home/agv2/myagv_ws_proto/src/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agv2/myagv_ws_proto/src/build/myagv_description -- -j4 -l4
+Invoked command in '/home/agv2/myagv_ws_proto/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agv2/myagv_ws_proto/src/build/myagv_description -- -j4 -l4
+Invoking command in '/home/agv2/myagv_ws_proto/src/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agv2/myagv_ws_proto/src/build/myagv_description
+Invoked command in '/home/agv2/myagv_ws_proto/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agv2/myagv_ws_proto/src/build/myagv_description

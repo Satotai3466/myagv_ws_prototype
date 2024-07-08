@@ -1,0 +1,2 @@
+Invoking command in '/home/agv2/myagv_ws_proto/src/build/apriltag_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agv2/myagv_ws_proto/src/apriltag_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agv2/myagv_ws_proto/src/install/apriltag_ros
+Invoked command in '/home/agv2/myagv_ws_proto/src/build/apriltag_ros' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agv2/myagv_ws_proto/src/apriltag_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/agv2/myagv_ws_proto/src/install/apriltag_ros

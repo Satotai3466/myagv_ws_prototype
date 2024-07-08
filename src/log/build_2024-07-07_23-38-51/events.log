@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.003471] (apriltag_ros) JobQueued: {'identifier': 'apriltag_ros', 'dependencies': OrderedDict()}
+[0.006254] (myagv_bringup) JobQueued: {'identifier': 'myagv_bringup', 'dependencies': OrderedDict()}
+[0.007067] (myagv_communication) JobQueued: {'identifier': 'myagv_communication', 'dependencies': OrderedDict()}
+[0.008005] (myagv_description) JobQueued: {'identifier': 'myagv_description', 'dependencies': OrderedDict()}
+[0.008249] (myagv_joy) JobQueued: {'identifier': 'myagv_joy', 'dependencies': OrderedDict()}
+[0.009847] (myagv_navigation) JobQueued: {'identifier': 'myagv_navigation', 'dependencies': OrderedDict()}
+[0.011001] (myagv_slam) JobQueued: {'identifier': 'myagv_slam', 'dependencies': OrderedDict()}
+[0.011360] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.012419] (apriltag_ros) JobStarted: {'identifier': 'apriltag_ros'}
+[0.089599] (-) TimerEvent: {}
+[0.119706] (myagv_bringup) JobStarted: {'identifier': 'myagv_bringup'}
+[0.170567] (myagv_communication) JobStarted: {'identifier': 'myagv_communication'}
+[0.189812] (-) TimerEvent: {}
+[0.215684] (myagv_description) JobStarted: {'identifier': 'myagv_description'}
+[0.256407] (apriltag_ros) JobProgress: {'identifier': 'apriltag_ros', 'progress': 'cmake'}
+[0.261987] (apriltag_ros) Command: {'cmd': ['/usr/bin/cmake', '/home/agv2/myagv_ws_proto/src/apriltag_ros', '-DCMAKE_INSTALL_PREFIX=/home/agv2/myagv_ws_proto/src/install/apriltag_ros'], 'cwd': '/home/agv2/myagv_ws_proto/src/build/apriltag_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agv2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agv2'), ('OLDPWD', '/home/agv2/myagv_ws_proto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1049'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2017'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agv2'), ('JOURNAL_STREAM', '8:23544'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agv2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agv2-desktop:@/tmp/.ICE-unix/1185,unix/agv2-desktop:/tmp/.ICE-unix/1185'), ('INVOCATION_ID', 'aab452d116d2474fb46f46305311b8e4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AFY5P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:699ae580-ae50-4f14-a59e-4a0663f3ac40'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agv2/myagv_ws_proto/src/build/apriltag_ros'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.290970] (-) TimerEvent: {}
+[0.392056] (-) TimerEvent: {}
+[0.493139] (-) TimerEvent: {}
+[0.594005] (-) TimerEvent: {}
+[0.695190] (-) TimerEvent: {}
+[0.796122] (-) TimerEvent: {}
+[0.897063] (-) TimerEvent: {}
+[0.998092] (-) TimerEvent: {}
+[1.099575] (-) TimerEvent: {}
+[1.200461] (-) TimerEvent: {}
+[1.301403] (-) TimerEvent: {}
+[1.402239] (-) TimerEvent: {}
+[1.503035] (-) TimerEvent: {}
+[1.603871] (-) TimerEvent: {}
+[1.704701] (-) TimerEvent: {}
+[1.805932] (-) TimerEvent: {}
+[1.918404] (-) TimerEvent: {}
+[2.020739] (-) TimerEvent: {}
+[2.121547] (-) TimerEvent: {}
+[2.222599] (-) TimerEvent: {}
+[2.323914] (-) TimerEvent: {}
+[2.424868] (-) TimerEvent: {}
+[2.525635] (-) TimerEvent: {}
+[2.626420] (-) TimerEvent: {}
+[2.727185] (-) TimerEvent: {}
+[2.828017] (-) TimerEvent: {}
+[2.928919] (-) TimerEvent: {}
+[3.029797] (-) TimerEvent: {}
+[3.130708] (-) TimerEvent: {}
+[3.231582] (-) TimerEvent: {}
+[3.332772] (-) TimerEvent: {}
+[3.380680] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.385059] (apriltag_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.390044] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.391142] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.391535] (apriltag_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.391862] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.392174] (apriltag_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.392507] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.392840] (apriltag_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.393185] (apriltag_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.393761] (myagv_description) JobProgress: {'identifier': 'myagv_description', 'progress': 'cmake'}
+[3.399814] (myagv_description) Command: {'cmd': ['/usr/bin/cmake', '/home/agv2/myagv_ws_proto/src/myagv_description', '-DCMAKE_INSTALL_PREFIX=/home/agv2/myagv_ws_proto/src/install/myagv_description'], 'cwd': '/home/agv2/myagv_ws_proto/src/build/myagv_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agv2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agv2'), ('OLDPWD', '/home/agv2/myagv_ws_proto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1049'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2017'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agv2'), ('JOURNAL_STREAM', '8:23544'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agv2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agv2-desktop:@/tmp/.ICE-unix/1185,unix/agv2-desktop:/tmp/.ICE-unix/1185'), ('INVOCATION_ID', 'aab452d116d2474fb46f46305311b8e4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AFY5P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:699ae580-ae50-4f14-a59e-4a0663f3ac40'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agv2/myagv_ws_proto/src/build/myagv_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.436006] (-) TimerEvent: {}
+[3.473670] (myagv_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.508686] (apriltag_ros) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.9 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[3.536238] (-) TimerEvent: {}
+[3.637398] (-) TimerEvent: {}
+[3.758410] (-) TimerEvent: {}
+[3.860248] (-) TimerEvent: {}
+[3.862712] (apriltag_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.960485] (-) TimerEvent: {}
+[4.063695] (-) TimerEvent: {}
+[4.166112] (-) TimerEvent: {}
+[4.272333] (-) TimerEvent: {}
+[4.373512] (-) TimerEvent: {}
+[4.476134] (-) TimerEvent: {}
+[4.482098] (myagv_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.532051] (apriltag_ros) StdoutLine: {'line': b'-- Found apriltag_msgs: 2.0.1 (/opt/ros/humble/share/apriltag_msgs/cmake)\n'}
+[4.576349] (-) TimerEvent: {}
+[4.682073] (-) TimerEvent: {}
+[4.756075] (apriltag_ros) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[4.782350] (-) TimerEvent: {}
+[4.887967] (-) TimerEvent: {}
+[4.989706] (-) TimerEvent: {}
+[5.093361] (-) TimerEvent: {}
+[5.191251] (myagv_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.194531] (-) TimerEvent: {}
+[5.261414] (myagv_description) StdoutLine: {'line': b'-- Generating done\n'}
+[5.290916] (myagv_description) StdoutLine: {'line': b'-- Build files have been written to: /home/agv2/myagv_ws_proto/src/build/myagv_description\n'}
+[5.294754] (-) TimerEvent: {}
+[5.310631] (myagv_description) CommandEnded: {'returncode': 0}
+[5.312784] (myagv_description) JobProgress: {'identifier': 'myagv_description', 'progress': 'build'}
+[5.316121] (myagv_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/agv2/myagv_ws_proto/src/build/myagv_description', '--', '-j4', '-l4'], 'cwd': '/home/agv2/myagv_ws_proto/src/build/myagv_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agv2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agv2'), ('OLDPWD', '/home/agv2/myagv_ws_proto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1049'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2017'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agv2'), ('JOURNAL_STREAM', '8:23544'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agv2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agv2-desktop:@/tmp/.ICE-unix/1185,unix/agv2-desktop:/tmp/.ICE-unix/1185'), ('INVOCATION_ID', 'aab452d116d2474fb46f46305311b8e4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AFY5P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:699ae580-ae50-4f14-a59e-4a0663f3ac40'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agv2/myagv_ws_proto/src/build/myagv_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.395161] (-) TimerEvent: {}
+[5.498339] (-) TimerEvent: {}
+[5.606362] (-) TimerEvent: {}
+[5.699117] (myagv_description) CommandEnded: {'returncode': 0}
+[5.706718] (-) TimerEvent: {}
+[5.808841] (-) TimerEvent: {}
+[5.911347] (-) TimerEvent: {}
+[5.961983] (myagv_description) JobProgress: {'identifier': 'myagv_description', 'progress': 'install'}
+[6.011925] (-) TimerEvent: {}
+[6.038462] (myagv_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/agv2/myagv_ws_proto/src/build/myagv_description'], 'cwd': '/home/agv2/myagv_ws_proto/src/build/myagv_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'agv2'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/agv2'), ('OLDPWD', '/home/agv2/myagv_ws_proto'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1049'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2017'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'agv2'), ('JOURNAL_STREAM', '8:23544'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'agv2'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/agv2-desktop:@/tmp/.ICE-unix/1185,unix/agv2-desktop:/tmp/.ICE-unix/1185'), ('INVOCATION_ID', 'aab452d116d2474fb46f46305311b8e4'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'ja_JP.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.AFY5P2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:699ae580-ae50-4f14-a59e-4a0663f3ac40'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/agv2/myagv_ws_proto/src/build/myagv_description'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.110561] (myagv_communication) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/agv2/myagv_ws_proto/src/build/myagv_communication/build'], 'cwd': '/home/agv2/myagv_ws_proto/src/build/myagv_communication', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'agv2', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/agv2', 'OLDPWD': '/home/agv2/myagv_ws_proto', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1049', 'SYSTEMD_EXEC_PID': '1570', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2017', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'agv2', 'JOURNAL_STREAM': '8:23544', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'agv2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/agv2-desktop:@/tmp/.ICE-unix/1185,unix/agv2-desktop:/tmp/.ICE-unix/1185', 'INVOCATION_ID': 'aab452d116d2474fb46f46305311b8e4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AFY5P2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:699ae580-ae50-4f14-a59e-4a0663f3ac40', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/agv2/myagv_ws_proto/src/build/myagv_communication', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/agv2/myagv_ws_proto/src/build/myagv_communication/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agv2/myagv_ws_proto/src/install/myagv_communication/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.124407] (-) TimerEvent: {}
+[6.127073] (myagv_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.132264] (myagv_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.141887] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/urdf/agv.urdf\n'}
+[6.163596] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/launch/tf_launch.py\n'}
+[6.173960] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/ament_index/resource_index/package_run_dependencies/myagv_description\n'}
+[6.178864] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/ament_index/resource_index/parent_prefix_path/myagv_description\n'}
+[6.191270] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/environment/ament_prefix_path.sh\n'}
+[6.194989] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/environment/ament_prefix_path.dsv\n'}
+[6.210709] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/environment/path.sh\n'}
+[6.217592] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/environment/path.dsv\n'}
+[6.224982] (-) TimerEvent: {}
+[6.228729] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/local_setup.bash\n'}
+[6.237634] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/local_setup.sh\n'}
+[6.238229] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/local_setup.zsh\n'}
+[6.238664] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/local_setup.dsv\n'}
+[6.239043] (myagv_description) StdoutLine: {'line': b'-- Symlinking: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/package.dsv\n'}
+[6.239485] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/ament_index/resource_index/packages/myagv_description\n'}
+[6.239901] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig.cmake\n'}
+[6.240223] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig-version.cmake\n'}
+[6.240558] (myagv_description) StdoutLine: {'line': b'-- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/package.xml\n'}
+[6.240920] (myagv_description) CommandEnded: {'returncode': 0}
+[6.325280] (-) TimerEvent: {}
+[6.336448] (apriltag_ros) StdoutLine: {'line': b'-- Found image_transport: 3.1.9 (/opt/ros/humble/share/image_transport/cmake)\n'}
+[6.425496] (-) TimerEvent: {}
+[6.463996] (myagv_bringup) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/agv2/myagv_ws_proto/src/build/myagv_bringup/build'], 'cwd': '/home/agv2/myagv_ws_proto/src/build/myagv_bringup', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'agv2', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/agv2', 'OLDPWD': '/home/agv2/myagv_ws_proto', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1049', 'SYSTEMD_EXEC_PID': '1570', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2017', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'agv2', 'JOURNAL_STREAM': '8:23544', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'agv2', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/agv2-desktop:@/tmp/.ICE-unix/1185,unix/agv2-desktop:/tmp/.ICE-unix/1185', 'INVOCATION_ID': 'aab452d116d2474fb46f46305311b8e4', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'ja_JP.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AFY5P2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:699ae580-ae50-4f14-a59e-4a0663f3ac40', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/agv2/myagv_ws_proto/src/build/myagv_bringup', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/agv2/myagv_ws_proto/src/build/myagv_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/agv2/myagv_ws_proto/src/install/myagv_bringup/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[6.525853] (-) TimerEvent: {}
+[6.592407] (myagv_description) JobEnded: {'identifier': 'myagv_description', 'rc': 0}
+[6.618816] (myagv_joy) JobStarted: {'identifier': 'myagv_joy'}
+[6.619656] (apriltag_ros) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[6.635902] (-) TimerEvent: {}
+[6.742607] (-) TimerEvent: {}
+[6.848502] (-) TimerEvent: {}
+[6.950451] (-) TimerEvent: {}
+[6.975168] (apriltag_ros) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:45 (find_package):\n'}
+[6.977573] (apriltag_ros) StderrLine: {'line': b'  By not providing "Findapriltag.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[6.978985] (apriltag_ros) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "apriltag",\n'}
+[6.986460] (apriltag_ros) StderrLine: {'line': b'  but CMake did not find one.\n'}
+[6.987733] (apriltag_ros) StderrLine: {'line': b'\n'}
+[6.989909] (apriltag_ros) StderrLine: {'line': b'  Could not find a package configuration file provided by "apriltag"\n'}
+[7.005548] (apriltag_ros) StderrLine: {'line': b'  (requested version 3.2) with any of the following names:\n'}
+[7.011373] (apriltag_ros) StderrLine: {'line': b'\n'}
+[7.016335] (apriltag_ros) StderrLine: {'line': b'    apriltagConfig.cmake\n'}
+[7.016939] (apriltag_ros) StderrLine: {'line': b'    apriltag-config.cmake\n'}
+[7.017537] (apriltag_ros) StderrLine: {'line': b'\n'}
+[7.039725] (apriltag_ros) StderrLine: {'line': b'  Add the installation prefix of "apriltag" to CMAKE_PREFIX_PATH or set\n'}
+[7.040568] (apriltag_ros) StderrLine: {'line': b'  "apriltag_DIR" to a directory containing one of the above files.  If\n'}
+[7.041676] (apriltag_ros) StderrLine: {'line': b'  "apriltag" provides a separate development package or SDK, be sure it has\n'}
+[7.042556] (apriltag_ros) StderrLine: {'line': b'  been installed.\n'}
+[7.043252] (apriltag_ros) StderrLine: {'line': b'\n'}
+[7.044118] (apriltag_ros) StderrLine: {'line': b'\x1b[0m\n'}
+[7.044823] (apriltag_ros) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[7.050998] (-) TimerEvent: {}
+[7.058861] (apriltag_ros) StdoutLine: {'line': b'See also "/home/agv2/myagv_ws_proto/src/build/apriltag_ros/CMakeFiles/CMakeOutput.log".\n'}
+[7.162381] (-) TimerEvent: {}
+[7.270334] (-) TimerEvent: {}
+[7.374320] (-) TimerEvent: {}
+[7.478389] (-) TimerEvent: {}
+[7.580040] (-) TimerEvent: {}
+[7.681501] (-) TimerEvent: {}
+[7.783148] (-) TimerEvent: {}
+[7.885769] (-) TimerEvent: {}
+[7.988161] (-) TimerEvent: {}
+[8.089844] (-) TimerEvent: {}
+[8.191711] (-) TimerEvent: {}
+[8.293531] (-) TimerEvent: {}
+[8.395080] (-) TimerEvent: {}
+[8.496413] (-) TimerEvent: {}
+[8.598109] (-) TimerEvent: {}
+[8.707032] (-) TimerEvent: {}
+[8.778312] (myagv_communication) StdoutLine: {'line': b'running develop\n'}
+[8.807208] (-) TimerEvent: {}
+[8.850004] (myagv_bringup) StdoutLine: {'line': b'running develop\n'}
+[8.907397] (-) TimerEvent: {}
+[9.008281] (-) TimerEvent: {}
+[9.109872] (-) TimerEvent: {}
+[9.200668] (apriltag_ros) CommandEnded: {'returncode': 1}
+[9.210196] (-) TimerEvent: {}
+[9.320410] (-) TimerEvent: {}
+[9.361229] (apriltag_ros) JobEnded: {'identifier': 'apriltag_ros', 'rc': 1}
+[9.420652] (-) TimerEvent: {}
+[9.521965] (-) TimerEvent: {}
+[9.623814] (-) TimerEvent: {}
+[9.726068] (-) TimerEvent: {}
+[9.828493] (-) TimerEvent: {}
+[9.930072] (-) TimerEvent: {}
+[10.030940] (-) TimerEvent: {}
+[10.050543] (myagv_communication) StdoutLine: {'line': b'Removing /home/agv2/myagv_ws_proto/src/install/myagv_communication/lib/python3.10/site-packages/myagv-communication.egg-link (link to .)\n'}
+[10.131330] (-) TimerEvent: {}
+[10.179455] (myagv_bringup) StdoutLine: {'line': b'Removing /home/agv2/myagv_ws_proto/src/install/myagv_bringup/lib/python3.10/site-packages/myagv-bringup.egg-link (link to .)\n'}
+[10.231641] (-) TimerEvent: {}
+[10.294960] (myagv_communication) JobEnded: {'identifier': 'myagv_communication', 'rc': 'SIGINT'}
+[10.332401] (-) TimerEvent: {}
+[10.403641] (myagv_bringup) JobEnded: {'identifier': 'myagv_bringup', 'rc': 'SIGINT'}
+[10.432280] (-) TimerEvent: {}
+[10.533090] (-) TimerEvent: {}
+[10.633933] (-) TimerEvent: {}
+[10.734934] (-) TimerEvent: {}
+[10.835666] (-) TimerEvent: {}
+[10.936680] (-) TimerEvent: {}
+[11.037505] (-) TimerEvent: {}
+[11.138479] (-) TimerEvent: {}
+[11.239745] (-) TimerEvent: {}
+[11.296461] (myagv_joy) JobEnded: {'identifier': 'myagv_joy', 'rc': 'SIGINT'}
+[11.301218] (myagv_navigation) JobSkipped: {'identifier': 'myagv_navigation'}
+[11.301399] (myagv_slam) JobSkipped: {'identifier': 'myagv_slam'}
+[11.301484] (sllidar_ros2) JobSkipped: {'identifier': 'sllidar_ros2'}
+[11.301560] (-) EventReactorShutdown: {}

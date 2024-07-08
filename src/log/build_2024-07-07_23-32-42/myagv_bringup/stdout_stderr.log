@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating myagv_bringup.egg-info
+writing myagv_bringup.egg-info/PKG-INFO
+writing dependency_links to myagv_bringup.egg-info/dependency_links.txt
+writing entry points to myagv_bringup.egg-info/entry_points.txt
+writing requirements to myagv_bringup.egg-info/requires.txt
+writing top-level names to myagv_bringup.egg-info/top_level.txt
+writing manifest file 'myagv_bringup.egg-info/SOURCES.txt'
+reading manifest file 'myagv_bringup.egg-info/SOURCES.txt'
+writing manifest file 'myagv_bringup.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/lib/python3.10/site-packages/myagv-bringup.egg-link (link to .)
+
+Installed /home/agv2/myagv_ws_proto/src/build/myagv_bringup
+running symlink_data
+creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/ament_index
+creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/ament_index/resource_index
+creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/agv2/myagv_ws_proto/src/build/myagv_bringup/resource/myagv_bringup -> /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/ament_index/resource_index/packages
+symbolically linking /home/agv2/myagv_ws_proto/src/build/myagv_bringup/package.xml -> /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/myagv_bringup
+creating /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/myagv_bringup/launch
+symbolically linking /home/agv2/myagv_ws_proto/src/build/myagv_bringup/launch/agent_launch.py -> /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/myagv_bringup/launch
+symbolically linking /home/agv2/myagv_ws_proto/src/build/myagv_bringup/launch/core_launch.py -> /home/agv2/myagv_ws_proto/src/install/myagv_bringup/share/myagv_bringup/launch

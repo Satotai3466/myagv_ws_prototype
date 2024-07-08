@@ -26,6 +26,7 @@ setup(
             "diff_drive_controller_node = myagv_communication.diff_drive_controller:main",
             "move_control_node = myagv_communication.move_control_node:main",
             "odometry_node = myagv_communication.odometry:main",
+            "testpd_node = myagv_communication.testpd:main",
         ],
     },
 )

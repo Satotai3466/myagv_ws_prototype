@@ -1,0 +1,30 @@
+[3.188s] Invoking command in '/home/agv2/myagv_ws_proto/src/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agv2/myagv_ws_proto/src/myagv_description -DCMAKE_INSTALL_PREFIX=/home/agv2/myagv_ws_proto/src/install/myagv_description
+[3.258s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.268s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.977s] -- Configuring done
+[5.047s] -- Generating done
+[5.077s] -- Build files have been written to: /home/agv2/myagv_ws_proto/src/build/myagv_description
+[5.095s] Invoked command in '/home/agv2/myagv_ws_proto/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/agv2/myagv_ws_proto/src/myagv_description -DCMAKE_INSTALL_PREFIX=/home/agv2/myagv_ws_proto/src/install/myagv_description
+[5.101s] Invoking command in '/home/agv2/myagv_ws_proto/src/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agv2/myagv_ws_proto/src/build/myagv_description -- -j4 -l4
+[5.483s] Invoked command in '/home/agv2/myagv_ws_proto/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/agv2/myagv_ws_proto/src/build/myagv_description -- -j4 -l4
+[5.838s] Invoking command in '/home/agv2/myagv_ws_proto/src/build/myagv_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agv2/myagv_ws_proto/src/build/myagv_description
+[5.914s] -- Install configuration: ""
+[5.923s] -- Execute custom install script
+[5.943s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/urdf/agv.urdf
+[5.956s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/launch/tf_launch.py
+[5.961s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/ament_index/resource_index/package_run_dependencies/myagv_description
+[5.973s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/ament_index/resource_index/parent_prefix_path/myagv_description
+[5.978s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/environment/ament_prefix_path.sh
+[5.981s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/environment/ament_prefix_path.dsv
+[5.999s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/environment/path.sh
+[6.007s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/environment/path.dsv
+[6.021s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/local_setup.bash
+[6.021s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/local_setup.sh
+[6.022s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/local_setup.zsh
+[6.022s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/local_setup.dsv
+[6.023s] -- Symlinking: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/package.dsv
+[6.023s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/ament_index/resource_index/packages/myagv_description
+[6.024s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig.cmake
+[6.024s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/cmake/myagv_descriptionConfig-version.cmake
+[6.024s] -- Up-to-date symlink: /home/agv2/myagv_ws_proto/src/install/myagv_description/share/myagv_description/package.xml
+[6.025s] Invoked command in '/home/agv2/myagv_ws_proto/src/build/myagv_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/agv2/myagv_ws_proto/src/build/myagv_description
