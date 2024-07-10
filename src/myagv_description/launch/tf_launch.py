@@ -3,7 +3,7 @@ from launch_ros.actions import Node
 import os
 
 def generate_launch_description():
-    urdf_file = '/home/agv1/myagv_ws/src/myagv_description/urdf/agv.urdf'
+    urdf_file = '/home/agv2/myagv_ws_proto2/src/myagv_description/urdf/agv.urdf'
 
     with open(urdf_file, 'r') as infp:
         robot_desc = infp.read()

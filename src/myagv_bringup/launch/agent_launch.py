@@ -28,7 +28,7 @@ def generate_launch_description():
                     namespace='usb_cam',
                     parameters=[{
                         'video_device': LaunchConfiguration('device', default='/dev/video0'),
-                        'camera_info_url': 'file:///home/agv1/.ros/camera_info/default_cam.yaml'
+                        'camera_info_url': 'file:///home/agv2/.ros/camera_info/default_cam.yaml'
                     }],
                     extra_arguments=[{'use_intra_process_comms': True}]
                 ),

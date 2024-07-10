@@ -9,9 +9,11 @@ class PDControlNode(Node):
     def __init__(self):
         super().__init__('testpd_node')
         
-        self.target_distance = 8.2  # 目標距離
-        self.kp = 0.5  # 比例ゲイン
+        self.target_distance = 8.06  # 目標距離
+        self.kp = 1.5  # 比例ゲイン
         self.kd = 0.01  # 微分ゲイン
+
+        
 
         self.cmd_vel_publisher = self.create_publisher(Twist, '/cmd_vel', 10)
         self.pd_control_subscription = self.create_subscription(Bool, '/pd_control_active', self.pd_control_callback, 10)
@@ -36,9 +38,12 @@ class PDControlNode(Node):
 
         try:
             trans = self.tf_buffer.lookup_transform('default_cam', 'tag36h11:0', rclpy.time.Time())
-            print(trans)
+            
+            # print(trans)
             distance = math.sqrt(trans.transform.translation.x ** 2 + trans.transform.translation.y ** 2 + trans.transform.translation.z ** 2)
             error = self.target_distance - distance
+
+            print(distance)
             
             current_time = self.get_clock().now()
             dt = (current_time - self.prev_time).nanoseconds / 1e9
@@ -50,7 +55,7 @@ class PDControlNode(Node):
 
             cmd_vel_msg = Twist()
             cmd_vel_msg.linear.x = control_signal
-            if abs(cmd_vel_msg.linear.x) <= 0.085 or distance <= 0.2:
+            if abs(cmd_vel_msg.linear.x) <= 0.12 or distance <= 0.02:
                 cmd_vel_msg.linear.x = 0.0
                 self.publish_arrival_message()
                 #self.pd_control_active = True
